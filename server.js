@@ -320,4 +320,6 @@ const server=http.createServer(async (req,res)=>{
     return serveStatic(req,res);
   } catch(e) { return sendError(res,e); }
 });
-server.listen(PORT,()=>console.log(`EcoSmart running at http://localhost:${PORT}`));
+server.listen(PORT, '0.0.0.0', () => {
+    console.log(`EcoSmart running on port ${PORT}`);
+});
