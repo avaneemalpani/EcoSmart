@@ -42,14 +42,6 @@ Then open:
 
 Do **not** double-click the HTML files. The backend serves the pages and APIs.
 
-## Demo admin account
-
-Email: `admin@ecosmart.local`
-
-Password: `Admin@123`
-
-Change this before using the project publicly.
-
 ## Data
 
 The SQLite database is created automatically at:
