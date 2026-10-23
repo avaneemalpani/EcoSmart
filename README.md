@@ -1,4 +1,4 @@
-# EcoSmart 2.0
+# EcoSmart
 
 EcoSmart is a full-stack e-waste pickup, tracking and rewards project.
 
